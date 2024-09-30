@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Lab</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            animation: backgroundAnimation 6s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background: linear-gradient(135deg, #00c6ff, #0072ff);
+            }
+            100% {
+                background: linear-gradient(135deg, #0072ff, #00c6ff);
+            }
+        }
+
+        .text {
+            color: white;
+            font-size: 3em;
+            text-align: center;
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        Welcome to Cloud Computing Lab
+    </div>
+</body>
+</html>
